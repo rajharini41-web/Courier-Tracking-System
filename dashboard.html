@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+    <div class="navbar">
+
+        <h2>Courier Tracking System</h2>
+
+        <button onclick="logout()">Logout</button>
+
+    </div>
+
+    <div class="container">
+
+        <h3 id="welcome"></h3>
+
+        <div class="card">
+
+            <h3>Track Courier</h3>
+
+            <input type="text" id="trackingNumber" placeholder="Enter Tracking Number">
+
+            <button onclick="trackCourier()">Track</button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
